@@ -1,0 +1,5 @@
+class perceptron {
+  constructor() {
+    inputs = {};
+  }
+}
