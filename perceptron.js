@@ -27,8 +27,12 @@ class perceptron {
   }
 }
 
-function setup() {
-  var p = new 
-}
+const setup = () => {
+  var p = new perceptron();
+  var inputs = [1, 0.5];
+  var guess = p.guess(inputs);
+  console.log(guess);
+};
 
+module.exports = { setup };
 module.exports = perceptron;
